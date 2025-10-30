@@ -2,8 +2,7 @@ Title: [Relevant](https://tryhackme.com/room/relevant)
 Category: [Windows/Web...]    
 Difficulty: [ Medium ]  
 
-(This write up is for absolute begginers for understand easily)
-
+(This write-up is for absolute beginners and is written for easy understanding.)
 ---
 
 ##  Challenge Description
@@ -124,11 +123,9 @@ Host script results:
 
 ```
 
-Noticable port :
-```
-port 80
-port 49663
-```
+Notable observation: both ports 80 and 49663 serve web content; 49663 appears interesting.
+
+**Web Enumeration**
 
 Both are webserver
 
@@ -166,6 +163,8 @@ relevent.thm:49663/nt4wrksv
 ```
 
 But i didnt got anything
+
+## SMB Enumeration
 
 Then i goto check the SMB share
 ```
@@ -232,6 +231,8 @@ http://relevent.thm:49663/nt4wrksv/passwords.txt
 OOOooo
 
 now i got a spark
+
+## Getting a Reverse Shell
 
 i used a shell reverse tcp file to get reverse shell
 
@@ -319,7 +320,13 @@ C:\Users\Administrator\Desktop\root.txt
 
 ### Tools Used
 
-[PrintSpoofer.exe](https://github.com/dievus/printspoofer)
+#### Tools Used
+- nmap
+- gobuster
+- smbclient
+- msfvenom
+- nc (netcat)
+- [PrintSpoofer.exe](https://github.com/dievus/printspoofer)
 
 
 ---
