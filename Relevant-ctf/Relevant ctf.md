@@ -136,7 +136,7 @@ Lets check those
 
 ##### "IP"/
 
-![[Pasted image 20251030221942.png]]
+![relevent1](https://github.com/user-attachments/assets/87026022-997c-437c-9bcc-5e952eacd0ee)
 
 
 
