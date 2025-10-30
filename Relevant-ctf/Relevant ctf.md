@@ -146,7 +146,8 @@ i run gobuster on this but got nothing
 
 now lets check this
 ###### IP:49663/
-![[Pasted image 20251030222022.png]]
+![relevent2](https://github.com/user-attachments/assets/d330f3be-375c-4c75-a74a-81f3e3187497)
+
 
 i run gobuster on this 
 ```
@@ -190,8 +191,9 @@ I notice something familiar  from the list
 
 i goto that sharename 
 ``
+![smblist](https://github.com/user-attachments/assets/634d91e6-7619-4bc1-a136-64db4f082bc7)
 
-![[smblist.jpeg]]
+
 i got something special 
 ```
 passwords.txt
@@ -224,7 +226,8 @@ Then i goto the website and  Run
 http://relevent.thm:49663/nt4wrksv/passwords.txt
 ```
 
-![[Pasted image 20251030221756.png]]
+![rel4](https://github.com/user-attachments/assets/bd11cc68-d588-4307-bcf3-8fc6614cfac2)
+
 
 OOOooo
 
@@ -266,7 +269,7 @@ http://relevent.thm:49663/nt4wrksv/reverse.aspx
 
 Boom U got a reverse shelll
 
-![[Pasted image 20251030221826.png]]
+<img width="597" height="132" alt="image" src="https://github.com/user-attachments/assets/3d47426e-bc1d-474c-a0fb-8451768da698" />
 
 
 ---
